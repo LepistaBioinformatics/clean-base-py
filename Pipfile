@@ -14,7 +14,6 @@ python-semantic-release = "*"
 twine = "*"
 wheel = "*"
 agrobase-py = {editable = true, path = "."}
-build = "*"
 
 [requires]
 python_version = "3.11"
