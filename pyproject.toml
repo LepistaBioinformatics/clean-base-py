@@ -20,6 +20,7 @@ authors = [
     { name = "Samuel Galvão Elias", email = "sgelias@outlook.com" },
 ]
 description = "A simple and lighweight package tor clean softwares."
+readme = "README.md"
 requires-python = ">=3.11"
 keywords = ["Bioinformatics", "Clean Architecture", "Monad Either"]
 classifiers = [
@@ -31,6 +32,11 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules", 
     "Topic :: Scientific/Engineering :: Bio-Informatics"
 ]
+
+[project.urls]
+
+Homepage = "https://github.com/sgelias/clean-base-py"
+
 
 # ? ----------------------------------------------------------------------------
 # ? Code consistence
