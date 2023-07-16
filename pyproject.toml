@@ -15,7 +15,7 @@ build-backend = "setuptools.build_meta"
 [project]
 
 name = "clean_base"
-version = "0.0.1"
+version = "0.1.0"
 authors = [
     { name = "Samuel Galvão Elias", email = "sgelias@outlook.com" },
 ]
