@@ -13,7 +13,7 @@ pre-commit = "*"
 python-semantic-release = "*"
 twine = "*"
 wheel = "*"
-agrobase-py = {editable = true, path = "."}
+clean-base = {editable = true, path = "."}
 
 [requires]
 python_version = "3.11"

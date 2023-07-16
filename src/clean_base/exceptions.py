@@ -2,7 +2,7 @@ from enum import IntEnum, auto
 from logging import Logger, getLogger
 from typing import Any, Self
 
-from agrobase.settings import LOGGER
+from clean_base.settings import LOGGER
 
 from .either import Left, left
 
