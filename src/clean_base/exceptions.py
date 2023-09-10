@@ -62,12 +62,17 @@ class MappedErrors:
             logger = getLogger(code.name)
 
         if exp is True:
-            LOGGER.error(msg)
+            logger.error(msg)
         else:
-            LOGGER.exception(msg)
+            logger.exception(msg)
 
     def __call__(self) -> Left[Self]:
         return left(self)
+
+    def __str__(self) -> str:
+        return self.msg
+
+    __repr__ = __str__
 
     # ? ------------------------------------------------------------------------
     # ? GETTERS AND SETTERS
@@ -111,7 +116,7 @@ class MappedErrors:
     # ? ------------------------------------------------------------------------
 
     def update_msg(self, msg: Any, prev: Any = None) -> str:
-        base_msg = "type({type} {code}): {{msg}}".format(
+        base_msg = "MappedErrors({type} {code}): {{msg}}".format(
             type=type(self).__name__, code=self.code
         )
 
