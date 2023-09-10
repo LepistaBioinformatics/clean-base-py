@@ -15,7 +15,7 @@ build-backend = "setuptools.build_meta"
 [project]
 
 name = "clean_base"
-version = "0.1.1"
+version = "0.1.2"
 authors = [{ name = "Samuel Galvão Elias", email = "sgelias@outlook.com" }]
 description = "A simple and lighweight package tor clean softwares."
 readme = "README.md"
@@ -39,7 +39,7 @@ Homepage = "https://github.com/sgelias/clean-base-py"
 [tool.poetry]
 
 name = "clean_base"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple and lighweight package tor clean softwares."
 authors = ["Samutl Galvão Elias <sgelias@outlook.com> "]
 

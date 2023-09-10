@@ -1,3 +1,9 @@
+## v0.1.2 (2023-09-10)
+
+### Fix
+
+- fix exceptions to throws from informed logger during mapped-errors executions not from internal logger only
+
 ## v0.1.1 (2023-07-16)
 
 ### Fix
